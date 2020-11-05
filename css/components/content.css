@@ -1,0 +1,26 @@
+.content h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 5%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto 40px auto;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.1);
+  max-width: 300px;
+  min-width:200px;
+  padding: 20px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+img {
+  width: 100%;
+}

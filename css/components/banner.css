@@ -1,0 +1,57 @@
+.banner-container{
+  max-width: 1500px;
+  min-width: 800px;
+  min-height: 200px;
+}
+
+.banner {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)
+    ), url("../../images/minetell.png");
+  background-size: cover;
+  background-position: left bottom;
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner-text {
+  padding-top: 200px;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  color: white;
+}
+
+.banner-text a{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.banner-text p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.banner-text h1{
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-top: 50px;
+  transition: 100ms ease;
+}
+
+.btn:hover {
+  background-color: rgba(158, 158, 158, 0.8);
+  padding:15px;
+  font-weight: 300;
+}
